@@ -22,7 +22,7 @@ function timer(){
         document.querySelector(".timerout").textContent=time;
         }else{
             clearInterval(intervel);
-            document.querySelector("#pbtm").innerHTML=`<h1>Chala Ja BHSDK</h1>`;
+            document.querySelector("#pbtm").innerHTML=`<h1>Game Over</h1>`;
         }
     },1000)
 }
